@@ -1,5 +1,5 @@
 ,count,mean,std,min,max
-user_followers,6.0,124.33,72.3,31.0,171.0
-retweet_count,6.0,0.0,0.0,0.0,0.0
-like_count,6.0,0.0,0.0,0.0,0.0
-quote_count,6.0,0.0,0.0,0.0,0.0
+user_followers,22796.0,15830.38,137067.93,0.0,3184361.0
+retweet_count,22796.0,0.8,6.99,0.0,224.0
+like_count,22796.0,3.93,19.56,0.0,493.0
+quote_count,22796.0,0.02,0.17,0.0,3.0

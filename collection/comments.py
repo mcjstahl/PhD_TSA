@@ -162,7 +162,7 @@ def paginate(conv_id, start_date, end_date, filename):
     
     # ./data/2018_MPF_PGR_data.csv
     year = filename.split('/')[3].split('_')[0]
-    filename = f'./data/replies/{year}_MPF_PGR_replies_data.csv'
+    filename = f'./data/replies/{year}_DELTANMD_replies_data.csv'
         
     is_file_created = os.path.exists(filename)
     
@@ -226,10 +226,8 @@ def paginate(conv_id, start_date, end_date, filename):
 
 def main():
     files = [
-        './data/account_tweets/2018_MPF_PGR_data.csv',
-        './data/account_tweets/2019_MPF_PGR_data.csv',
-        './data/account_tweets/2020_MPF_PGR_data.csv',
-        './data/account_tweets/2021_MPF_PGR_data.csv'
+        './data/account_tweets/2021_DELTANMD_data.csv',
+        './data/account_tweets/2022_DELTANMD_data.csv',
     ]
     
     for file in files:

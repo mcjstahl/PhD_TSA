@@ -5,7 +5,7 @@ python -m venv env
 ```
 ## Activate the environment
 On Mac:
-* source `env/bin/activate`
+* source env/bin/activate
 
 ## Setup
 Create a `.env` file inside the folder
